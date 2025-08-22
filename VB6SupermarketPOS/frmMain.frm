@@ -16,8 +16,14 @@ Begin VB.MDIForm frmMain
       Begin VB.Menu mnuProducts 
          Caption         =   "الأصناف"
       End
+      Begin VB.Menu mnuPurchase 
+         Caption         =   "إدخال بضاعة"
+      End
       Begin VB.Menu mnuCustomers 
          Caption         =   "العملاء"
+      End
+      Begin VB.Menu mnuInvoices 
+         Caption         =   "الفواتير"
       End
       Begin VB.Menu mnuReports 
          Caption         =   "التقارير"
@@ -43,4 +49,28 @@ End Sub
 
 Private Sub mnuExit_Click()
 	Unload Me
+End Sub
+
+Private Sub mnuProducts_Click()
+	Load frmProducts
+	frmProducts.MDIChild = True
+	frmProducts.Show
+End Sub
+
+Private Sub mnuCustomers_Click()
+	Load frmCustomers
+	frmCustomers.MDIChild = True
+	frmCustomers.Show
+End Sub
+
+Private Sub mnuPurchase_Click()
+	Load frmPurchase
+	frmPurchase.MDIChild = True
+	frmPurchase.Show
+End Sub
+
+Private Sub mnuInvoices_Click()
+	Load frmInvoices
+	frmInvoices.MDIChild = True
+	frmInvoices.Show
 End Sub

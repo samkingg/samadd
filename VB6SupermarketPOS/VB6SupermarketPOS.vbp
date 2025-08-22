@@ -1,5 +1,9 @@
 Type=Exe
 Form=frmLogin.frm
+Form=frmProducts.frm
+Form=frmCustomers.frm
+Form=frmPurchase.frm
+Form=frmInvoices.frm
 MDIForm=frmMain.frm
 Module=modApp; modApp.bas
 Module=modDatabase; modDatabase.bas
