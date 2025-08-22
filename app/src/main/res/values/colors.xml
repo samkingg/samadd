@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Arabic-inspired colors -->
+    <color name="arabic_gold">#FFD4AF37</color>
+    <color name="deep_blue">#FF1B365D</color>
+    <color name="sky_blue">#FF87CEEB</color>
+    <color name="sand_beige">#FFF5E6D3</color>
+    <color name="dark_green">#FF355E3B</color>
+    <color name="burgundy">#FF800020</color>
+    <color name="pearl">#FFF8F8FF</color>
+    
+    <color name="splash_background">@color/deep_blue</color>
+</resources>

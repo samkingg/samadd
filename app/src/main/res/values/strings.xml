@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الكلمات المتقاطعة العربية</string>
+    
+    <!-- Main Menu -->
+    <string name="new_game">لعبة جديدة</string>
+    <string name="continue_game">متابعة اللعب</string>
+    <string name="difficulty_selection">اختر المستوى</string>
+    <string name="settings">الإعدادات</string>
+    <string name="about">حول التطبيق</string>
+    
+    <!-- Difficulty Levels -->
+    <string name="easy">سهل</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">صعب</string>
+    <string name="expert">خبير</string>
+    
+    <!-- Game Screen -->
+    <string name="across">أفقي</string>
+    <string name="down">عمودي</string>
+    <string name="hint">تلميح</string>
+    <string name="check">تحقق</string>
+    <string name="clear">مسح</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="menu">القائمة</string>
+    
+    <!-- Game Status -->
+    <string name="time_elapsed">الوقت المنقضي: %s</string>
+    <string name="hints_used">التلميحات المستخدمة: %d</string>
+    <string name="progress">التقدم: %d%%</string>
+    <string name="congratulations">تهانينا!</string>
+    <string name="puzzle_completed">لقد أكملت الأحجية بنجاح</string>
+    <string name="your_score">نتيجتك: %d</string>
+    
+    <!-- Clues -->
+    <string name="clues_across">الأدلة الأفقية</string>
+    <string name="clues_down">الأدلة العمودية</string>
+    
+    <!-- Settings -->
+    <string name="auto_check">التحقق التلقائي</string>
+    <string name="show_timer">عرض المؤقت</string>
+    <string name="sound_effects">المؤثرات الصوتية</string>
+    <string name="font_size">حجم الخط</string>
+    <string name="theme">المظهر</string>
+    
+    <!-- Error Messages -->
+    <string name="error_loading_puzzle">خطأ في تحميل الأحجية</string>
+    <string name="error_generating_content">خطأ في توليد المحتوى</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    
+    <!-- Buttons -->
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+</resources>
