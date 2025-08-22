@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Game Settings Category -->
+    <PreferenceCategory
+        android:title="إعدادات اللعبة"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="difficulty"
+            android:title="@string/difficulty"
+            android:summary="اختر مستوى الصعوبة"
+            android:entries="@array/difficulty_entries"
+            android:entryValues="@array/difficulty_values"
+            android:defaultValue="MEDIUM"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- Display Settings Category -->
+    <PreferenceCategory
+        android:title="إعدادات العرض"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="@string/dark_mode"
+            android:summary="تفعيل الوضع المظلم"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="arabic_font"
+            android:title="@string/arabic_font"
+            android:summary="استخدام خط عربي جميل"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- Sound & Haptic Settings Category -->
+    <PreferenceCategory
+        android:title="إعدادات الصوت والاهتزاز"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="sound_effects"
+            android:title="@string/sound_effects"
+            android:summary="تشغيل المؤثرات الصوتية"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="vibration"
+            android:title="@string/vibration"
+            android:summary="تشغيل الاهتزاز"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- Data Management Category -->
+    <PreferenceCategory
+        android:title="إدارة البيانات"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="export_data"
+            android:title="تصدير البيانات"
+            android:summary="حفظ بيانات اللعبة"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="import_data"
+            android:title="استيراد البيانات"
+            android:summary="استعادة بيانات اللعبة"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="reset_data"
+            android:title="إعادة تعيين البيانات"
+            android:summary="حذف جميع البيانات المحفوظة"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- About Category -->
+    <PreferenceCategory
+        android:title="حول التطبيق"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="version"
+            android:title="الإصدار"
+            android:summary="1.0.0"
+            android:selectable="false"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="developer"
+            android:title="المطور"
+            android:summary="تم التطوير باستخدام الذكاء الاصطناعي"
+            android:selectable="false"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لعبة الكلمات المتقاطعة العربية</string>
+    
+    <!-- Main Menu -->
+    <string name="start_game">ابدأ اللعبة</string>
+    <string name="continue_game">استمر في اللعبة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="exit">خروج</string>
+    
+    <!-- Game -->
+    <string name="level">المستوى</string>
+    <string name="score">النقاط</string>
+    <string name="hint">تلميح</string>
+    <string name="check_word">تحقق من الكلمة</string>
+    <string name="next_level">المستوى التالي</string>
+    <string name="game_over">انتهت اللعبة</string>
+    <string name="congratulations">تهانينا!</string>
+    <string name="you_completed">لقد أكملت المستوى</string>
+    <string name="play_again">العب مرة أخرى</string>
+    <string name="back_to_menu">العودة للقائمة الرئيسية</string>
+    
+    <!-- Settings -->
+    <string name="difficulty">الصعوبة</string>
+    <string name="easy">سهل</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">صعب</string>
+    <string name="sound_effects">المؤثرات الصوتية</string>
+    <string name="vibration">الاهتزاز</string>
+    <string name="arabic_font">خط عربي</string>
+    <string name="dark_mode">الوضع المظلم</string>
+    
+    <!-- Hints -->
+    <string name="hint_used">تم استخدام التلميح</string>
+    <string name="no_hints_left">لا توجد تلميحات متبقية</string>
+    
+    <!-- Errors -->
+    <string name="error_loading">خطأ في التحميل</string>
+    <string name="error_saving">خطأ في الحفظ</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    
+    <!-- Success -->
+    <string name="word_correct">كلمة صحيحة!</string>
+    <string name="level_completed">تم إكمال المستوى!</string>
+</resources>
