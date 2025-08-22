@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arabic Theme Colors -->
+    <color name="arabic_gold">#D4AF37</color>
+    <color name="arabic_gold_dark">#B8860B</color>
+    <color name="arabic_gold_light">#F4E4BC</color>
+    
+    <color name="arabic_blue">#1E3A8A</color>
+    <color name="arabic_blue_dark">#1E40AF</color>
+    <color name="arabic_blue_light">#3B82F6</color>
+    
+    <color name="arabic_green">#059669</color>
+    <color name="arabic_green_dark">#047857</color>
+    <color name="arabic_green_light">#10B981</color>
+    
+    <color name="arabic_red">#DC2626</color>
+    <color name="arabic_red_dark">#B91C1C</color>
+    <color name="arabic_red_light">#EF4444</color>
+    
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_50">#F9FAFB</color>
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_900">#111827</color>
+    
+    <!-- Crossword Grid Colors -->
+    <color name="grid_background">#FEFEFE</color>
+    <color name="grid_border">#E5E7EB</color>
+    <color name="grid_filled">#D4AF37</color>
+    <color name="grid_empty">#FFFFFF</color>
+    <color name="grid_selected">#3B82F6</color>
+    <color name="grid_hint">#10B981</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_success">#059669</color>
+    <color name="text_error">#DC2626</color>
+</resources>
