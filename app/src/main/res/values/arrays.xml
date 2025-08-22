@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_entries">
+        <item>سهل</item>
+        <item>متوسط</item>
+        <item>صعب</item>
+    </string-array>
+    
+    <string-array name="difficulty_values">
+        <item>EASY</item>
+        <item>MEDIUM</item>
+        <item>HARD</item>
+    </string-array>
+</resources>
