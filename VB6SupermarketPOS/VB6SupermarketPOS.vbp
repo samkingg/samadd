@@ -4,6 +4,7 @@ Form=frmProducts.frm
 Form=frmCustomers.frm
 Form=frmPurchase.frm
 Form=frmInvoices.frm
+Form=frmPOS.frm
 MDIForm=frmMain.frm
 Module=modApp; modApp.bas
 Module=modDatabase; modDatabase.bas

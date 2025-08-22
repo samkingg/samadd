@@ -74,3 +74,9 @@ Private Sub mnuInvoices_Click()
 	frmInvoices.MDIChild = True
 	frmInvoices.Show
 End Sub
+
+Private Sub mnuPOS_Click()
+	Load frmPOS
+	frmPOS.MDIChild = True
+	frmPOS.Show
+End Sub
